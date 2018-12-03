@@ -5,3 +5,8 @@ gmpts$d2ship <- rdist.earth.vec(cbind(kStart$longitude, kStart$latitude),
 gmpts %>% 
   group_by(status) %>% 
   summarize(mean = mean(d2ship, na.rm = TRUE))
+
+
+
+
+# a different change
